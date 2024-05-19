@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Sedan SC, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --primary-color: #093c67;
+    --secondary-color: #f8f9fa;
+    --green: #0fa534;
+    --background-color: rgb(6, 6, 50);
+    --tertiary-color:$green;
+    --text-color: #9e0a0a;
+    --hover-color: rgb(197, 182, 182);
+    --grid-gutter-width: 1rem;
+    --font-size-base: 16px;
+    --brand-font: "Open Sans", sans-serif;
+    --border-radius: .25rem;
+    --shadow-color: rgb(0, 0, 0, 0.15);
+    --font-family: "Sedan SC" serif;
+    --font-weight: 400;
+    --font-style: normal;
+}
+
+.navbar{
+    background-color: var(--primary-color);
+    color: var(--green);
+    font-weight: 400;
+}
+
+.navbar .nav-link{
+    color: var(--green);
+    padding: 15px;
+}
+
+
+.navbar .nav-link:hover{
+     color: var(--hover-color);
+}
+
+
+.home{
+        padding-top: 200px;
+        background-image: url(./images/logo3.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+.content h2{
+        font-weight: 900;
+        text-shadow: 1px 1px 2px aliceblue;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 100px;
+        color: black;
+        
+        
+}
+
+.btn1{
+    width: 120px;
+    height: 52px;
+    border-style: none;
+    background-color: transparent;
+    color: #00050a;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 800;
+    font-style: oblique;
+        
+    }
+
+
+.btn1:hover{
+    background-color: #0fa534;
+    transition: 1s;
+
+ .content input{ 
+    width: 80%;
+    height: 50px;
+    border-style: none;
+    border-radius: 3px;
+} 
+
+/* Menu Section */
+
+.col-md-4 img{
+    width: 100%;
+    height: 150px;
+}
+
+.col-md-4{
+    padding-top: 20px;
+
+}
+
+.card h4,p{
+    font-weight: 700;
+}
+
+img{
+    border-radius: 10px 10px 0px 0px
+}
